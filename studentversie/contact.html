@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script defer src="js/gdpr.js"></script>
+    <script defer src="js/contact.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+<div class="content-gdpr">
+    <h1 id="content-gpdr-consent-status" style="margin: 0;"></h1>
+
+    <div class="content-gdpr-not-chosen hide">
+        <p>Deze content wordt alleen getoond als gdrp consent niet is gekozen.</p>
+    </div>
+
+    <div class="content-gdpr-accept hide">
+        <p>Deze content wordt alleen getoond als gdrp is geaccepteerd.</p>
+    </div>
+
+    <div class="content-gdpr-reject hide">
+        <p>Deze content wordt alleen getoond als gdrp is verworpen.</p>
+    </div>
+</div>
+
+<section class="gdpr-consent hide">
+
+    <div class="gdpr-consent__description">
+        <p>Deze website gebruikt cookies.
+            We gebruiken cookies om content te personaliseren, voor social media en het analyseren
+            van verkeer op de website, advertenties.</p>
+    </div>
+
+    <div class="gdpr-consent__choice">
+        <button class="gdpr-consent__button--accept">Ja, natuurlijk</button>
+        <button class="gdpr-consent__button--reject">Neu, misschien later</button>
+    </div>
+
+</section>
+
+<div class="page">
+    <section class="personalia">
+
+        <img class="person-logo" src="images/person-pasfoto.png">
+        <h1 class="person-name">Aldo den Hartog</h1>
+    </section>
+
+    <section class="contact">
+
+        <h1>Stuur mij een bericht</h1>
+
+        <form action="#" method="post" class="form-contactpagina" id="form">
+
+            <div class="form-contactpagina__inputelement fx-col">
+                <input type="text" id="firstname" maxlength="60" placeholder="Je voornaam..." required>
+            </div>
+
+            <div class="form-contactpagina__inputelement fx-col">
+                <input type="text" id="lastname" maxlength="60" placeholder="Je achternaam..." required>
+            </div>
+
+            <div class="form-contactpagina__inputelement fx-col">
+                <input type="tel" id="phone" maxlength="20" placeholder="Je telefoonnummer..." required>
+            </div>
+
+            <div class="form-contactpagina__inputelement fx-col">
+                <input type="email" id="email" placeholder="Je e-mail..." required>
+            </div>
+
+            <div class="form-contactpagina__inputelement">
+                <label id="captcha"></label>
+                <input id="captcha-submit" type="number" placeholder="Captcha">
+            </div>
+
+            <div class="form-contactpagina__inputelement">
+                <input type="submit" value="Verzenden" disabled>
+            </div>
+
+        </form>
+        <h4 id="feedback"></h4>
+
+    </section>
+</div>
+</body>
+</html>

@@ -6,6 +6,12 @@
     font-family: Arial;
 }
 
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .personalia {
     background-color: #e7e8ec;
     width: 100%;
@@ -108,6 +114,76 @@
     }
 
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+}
+
+.content-gdpr {
+    position: fixed;
+    margin: auto;
+    background-color: red;
+    border: 1px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+}
+
+.gdpr-consent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid gray;
+    border-radius: 15px 15px 15px 15px;
+    background-color: gainsboro;
+}
+
+.gdpr-consent__description{
+    display: flex;
+    justify-content: center;
+}
+
+.gdpr-consent__choice{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.gdpr-consent__button--accept {
+    background-color: #d5f5d5;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.gdpr-consent__button--accept:hover {
+    background-color: #c5e3c5;
+}
+
+.gdpr-consent__button--reject {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
 
 
 /*student uitwerking*/
