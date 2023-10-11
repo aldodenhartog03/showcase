@@ -1,0 +1,26 @@
+.backgammon-bord {
+    background-image:url(../img/backgammon-bord.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 36rem;
+    width: 45rem;
+    margin: auto;
+}
+
+.dam-wit{
+    position: fixed;
+    background-image:url(../img/witte-dam.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 3rem;
+    width: 3rem;
+}
+
+.dam-zwart{
+    position: fixed;
+    background-image:url(../img/zwarte-dam.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 3rem;
+    width: 3rem;
+}

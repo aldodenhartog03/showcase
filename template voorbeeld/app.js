@@ -17,7 +17,7 @@ class BackgammonBord extends HTMLElement {
     }
 
     applyTemplate(){
-        const template = document.getElementById('backgammon-bord');
+        const template = document.getElementById('template voorbeeld-bord');
         let clone = template.content.cloneNode(true);
         this.shadowRoot.appendChild(clone);
     }
